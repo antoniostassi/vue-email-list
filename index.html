@@ -9,9 +9,9 @@
 
     <div id="app">
         <h1>{{message}}</h1>
-        <ol>
+        <ol v-if="email.length==10">
             <li v-for="mail in email">{{mail}}</li>
-        </ol>
+        </ul>
     </div>
     
 
